@@ -1,0 +1,1 @@
+plot for[n=1:3] 'output_matlab' u n w l t 't_{'.n.'}'

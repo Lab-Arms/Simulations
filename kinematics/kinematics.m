@@ -68,6 +68,7 @@ for i=1:size(points,1)
 		trajectory = [trajectory; joints_cart(5,:)];
 		draw_points(L, theta, ndim, handle);
 		draw_base(L(1), handle);
+		disp(sprintf('%.3f %.3f %.3f', theta(1), theta(2), theta(3)));
 	end
 	steps = 1:size(tetas, 2);
 	if ndim == 2
